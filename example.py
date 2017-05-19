@@ -46,6 +46,7 @@ while True:
     start = 8;
     if hour < start:
         hour_status = 0;
+        print ("sleeping zzz... ")
     else:
         hour_status = 1;
     while hour_status:
