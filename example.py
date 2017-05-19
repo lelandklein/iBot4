@@ -44,11 +44,11 @@ bot = InstaBot(
 while True:
     hour = time.localtime().tm_hour;
     start = 8;
-    if hour < start
+    if hour < start:
         hour_status = 0;
-    else
+    else:
         hour_status = 1;
-    while hour_status
+    while hour_status:
         #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
         #print("## MODE 1 = MODIFIED MODE BY KEMONG")
         #print("### MODE 2 = ORIGINAL MODE + UNFOLLOW WHO DON'T FOLLOW BACK")
