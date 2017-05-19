@@ -43,7 +43,8 @@ bot = InstaBot(
     unfollow_whitelist=['itsyouandi13', 'siquemola'])
 while True:
     hour = time.localtime().tm_hour;
-    if hour < 8
+    start = 8;
+    if hour < start
         hour_status = 0;
     else
         hour_status = 1;
