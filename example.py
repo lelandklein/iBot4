@@ -43,7 +43,7 @@ bot = InstaBot(
     unfollow_whitelist=['itsyouandi13', 'siquemola'])
 while True:
     hour = time.localtime().tm_hour;
-        while 8<hour<23
+    while 8<hour<23
         #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
         #print("## MODE 1 = MODIFIED MODE BY KEMONG")
         #print("### MODE 2 = ORIGINAL MODE + UNFOLLOW WHO DON'T FOLLOW BACK")
